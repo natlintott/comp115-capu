@@ -112,7 +112,7 @@ day_today = int(input("Day of the week, 0-6 (0 is Sunday)"))
 days_trip = int(input("Length of trip in days"))
 
 daynum = (day_today+days_trip)% 7
-print(f"Your trip stars on day {day_today}, and lasts a total of {days_trip} days. You will return home on day {daynum}.")
+print(f"Your trip starts on day {day_today}, and lasts a total of {days_trip} days. You will return home on day {daynum}.")
 
 
 #---------------------------------------------------------
@@ -122,4 +122,5 @@ print(f"Your trip stars on day {day_today}, and lasts a total of {days_trip} day
 # 2. upload your lab2 python file to your GitHub "comp115" repository.
 # 3. submit your github comp115 repo link on the e-learn.
 # Great job. Congratulations on finishing your lab2!
+
 #---------------------------------------------------------

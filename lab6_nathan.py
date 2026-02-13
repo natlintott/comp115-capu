@@ -2,7 +2,7 @@
 Lab 6 - Selections and Iterations 
 (100 marks in total, including 10 exercises)
 
-Author:  <your name>
+Author:  Nathan
 Due Date: This Friday (Feb. 13) 5pm.
 
 Objective:
@@ -257,4 +257,5 @@ Congratulations on finishing your lab6!
 Now upload to your GitHub repository, and paste your GitHub link on e-learn.
 
 Have a great reading break!
+
 """

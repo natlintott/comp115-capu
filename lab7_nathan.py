@@ -282,6 +282,17 @@ def parse_log_line(line):
             message = message + " "
     parsed = (timestamp, level, module, message)
     return parsed
+    """
+    E.g., 
+    >>> parse_log_line("2024-03-05 14:32:18 [WARNING] api.py Slow query detected (2.3s))")
+    ("2024-03-05 14:32:18", "[WARNING]", "api.py", "Slow query detected (2.3s))")
+
+    Parameters:
+    - line (str): The log to be parsed
+
+    Returns:
+    - (str): The parsed log, stored in a tuple
+    """
 
 
 # Your unit tests
